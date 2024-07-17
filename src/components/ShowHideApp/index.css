@@ -1,0 +1,59 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.app-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: linear-gradient(to left, rgb(156, 19, 19, 0.8), rgb(23, 23, 209, 0.5));
+}
+
+.heading {
+    color: #fff;
+    font-size: 48px;
+    font-family: serif;
+    font-weight: 600;
+}
+
+.show-hide-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.name-container {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    height: 200px;
+    margin: 0px 32px;
+    align-items: center;
+
+}
+
+.show-hide-button {
+    color: rgb(19, 190, 110);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    font-weight: 500;
+
+    border: none;
+    border-radius: 12px;
+    padding: 12px 24px;
+}
+
+.name {
+    text-align: center;
+    background-color: #fff;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 24px;
+    font-weight: 600;
+    border-radius: 12px;
+    padding: 48px 106px;
+}

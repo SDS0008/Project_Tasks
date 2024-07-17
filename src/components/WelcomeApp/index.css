@@ -1,0 +1,35 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    background-color: #1a0505;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    line-height: 80px;
+    letter-spacing: 3px;
+}
+
+.heading {
+    color: greenyellow;
+    font-size: 50px;
+}
+
+.description {
+    color: whitesmoke;
+    font-size: 25px;
+    font-weight: 700;
+}
+
+.button {
+    background-color: #7d2222;
+    border-radius: 10px;
+    width: 150px;
+    height: 40px;
+    font-weight: 500;
+}

@@ -1,0 +1,42 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+}
+
+
+.speedometer-bg-container {
+
+    text-align: center;
+    line-height: 65px;
+    letter-spacing: 1px;
+}
+
+.speedometer-heading {
+    font-style: italicz;
+    font-size: 40px;
+    background: cyan;
+    margin-bottom: 20px;
+}
+
+.btn-accelerate {
+    margin-right: 10px;
+    background: #380873;
+    color: white;
+    padding: 10px;
+}
+
+.btn-brake {
+    margin-right: 10px;
+    background: #be1010;
+    color: white;
+    padding: 10px;
+}
+
+.speedometer-warning {
+    background-color: rgb(140, 17, 17, 0.5);
+}
+
+.speedometer-speed {
+    color: #380873;
+}

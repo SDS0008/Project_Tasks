@@ -1,0 +1,17 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+
+}
+
+.login-button {
+    color: rgb(58, 26, 26);
+    font-size: 15px;
+    border: none;
+    border-radius: 12px;
+    background-color: #fff;
+    padding: 12px 32px;
+
+}

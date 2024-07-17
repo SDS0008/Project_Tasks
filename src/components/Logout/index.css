@@ -1,0 +1,9 @@
+.logout-button {
+    font-family: serif;
+    font-size: 15px;
+    border: none;
+    border-radius: 12px;
+    background-color: #fff;
+    padding: 12px 32px;
+    color: rgb(91, 91, 88);
+}

@@ -1,25 +1,29 @@
-import logo from './logo.svg';
+import ClickCounter from './components/ClickCounter';
+import Speedometer from './components/Speedometer';
+import WelcomeApp from './components/WelcomeApp';
+import FruitCounter from './components/FruitCounter';
 import './App.css';
+import ShowHideApp from './components/ShowHideApp';
+import EvenOddApp from './components/EvenOddApp';
+import Home from './components/Home'
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+
+    //<ClickCounter />
+    //<Speedometer />
+    // < WelcomeApp />
+    // <FruitCounter />
+    // <ShowHideApp />
+    //<EvenOddApp />
+    <Home />
+
+
   );
 }
+
+
+
+
 
 export default App;
